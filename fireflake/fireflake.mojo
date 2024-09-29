@@ -37,8 +37,8 @@ fn since_epoch[epoch: Int64]() raises -> Int64:
     return time_ms() - epoch
 
 struct Fireflake[
-    node_bits_count: Int64 = 12,
-    sequence_bits_count: Int64 = 10,
+    node_bits_count: Int64 = 10,
+    sequence_bits_count: Int64 = 12,
     epoch: Int64 = 1727522930324,
 ]:
     """
@@ -53,7 +53,7 @@ struct Fireflake[
     - sequence - an auto-incrementing id, that's thread safe to use.
 
     ```
-        1    |  41  |  12  |    10
+        1    |  41  |  10  |    12
     sign bit | time | node | sequence
     ```
     """
