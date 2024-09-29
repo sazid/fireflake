@@ -19,6 +19,11 @@ Mojo 🔥.
   </p>
 </div>
 
+## Requirements
+
+- Mojo: `mojo 24.5.0 (e8aacb95)`. Should work in future versions.
+- Python: `3.7+`
+
 ## Getting started
 
 1. 🌩️ Download `fireflake.mojopkg` from [releases](https://github.com/sazid/fireflake/releases).
